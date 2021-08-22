@@ -1,0 +1,18 @@
+{% extends 'todo_app/base_page.html' %} {% block content %}
+<form class="m-5">
+    <div class="form-group">
+        <label for="html" class="form-label m-1">ADD ITEM</label>
+        <input type="text" class="form-control m-1 mr-sm-2" id="exampleInputtText" aria-describedby="textHelp" placeholder="Type here..">
+    </div>
+    <button type="submit" class="btn btn-dark shadow-lg m-2">Submit</button>
+</form>
+<div class="container">
+    <ul class="list-group shadow-lg">
+        <li class="list-group-item active">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+</div>
+{% endblock content %}
